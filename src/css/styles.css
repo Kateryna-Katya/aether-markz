@@ -151,7 +151,7 @@ ul { list-style: none; }
 
 /* Заголовки */
 .glow-text {
-  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-size: clamp(1.4rem, 5vw, 3.5rem);
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -169,7 +169,8 @@ ul { list-style: none; }
 
 h2 {
   display: flex;
-  align-items: center;
+  align-items: left;
+  flex-wrap: wrap;
   gap: 12px;
   color: var(--cyan);
   font-size: 1.5rem;
