@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aether Markz — Политика возврата средств</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='45' fill='none' stroke='%2300ffff' stroke-width='8'/><path d='M50 20 L25 75 L75 75 Z' fill='none' stroke='%2300ffff' stroke-width='8' stroke-linejoin='round'/><circle cx='50' cy='52' r='8' fill='%2300ffff'/></svg>">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <load
+      src="./partials/header.html"
+/>
+
+<main class="legal-page">
+  <section class="pages section-padding">
+    <div class="container">
+
+      <div class="reveal-up">
+        <h1 class="glow-text">Политика возврата средств</h1>
+        <div class="accent-line"></div>
+        <p class="lead-text">Прозрачные условия финансового взаимодействия в системе Aether.</p>
+      </div>
+
+      <div class="legal-content">
+
+        <div class="reveal-up shadow-box">
+          <h2><i data-lucide="refresh-ccw"></i> Условия для оформления возврата</h2>
+          <p>Вы можете претендовать на полный или частичный возврат средств в следующих ситуациях:</p>
+          <div class="cookie-grid">
+            <div class="cookie-item">
+              <strong>Несоответствие описанию</strong>
+              <p>Содержание курса существенно отличается от заявленной программы на момент покупки.</p>
+            </div>
+            <div class="cookie-item">
+              <strong>Технический сбой</strong>
+              <p>Критические ошибки на стороне Aether, препятствующие обучению более 48 часов.</p>
+            </div>
+            <div class="cookie-item">
+              <strong>Период охлаждения</strong>
+              <p>Отказ в течение 14 дней с момента оплаты (при минимальном прогрессе обучения).</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="reveal-up shadow-box">
+          <h2><i data-lucide="clipboard-list"></i> Процедура запроса</h2>
+          <div class="steps-container">
+            <div class="step-item">
+              <span class="step-num">01</span>
+              <p>Отправьте письмо на <a href="mailto:hello@aether-markz.org">hello@aether-markz.org</a></p>
+            </div>
+            <div class="step-item">
+              <span class="step-num">02</span>
+              <p>Тема: «Запрос на возврат средств — [Ваше Имя]»</p>
+            </div>
+            <div class="step-item">
+              <span class="step-num">03</span>
+              <p>Укажите название курса и email, использованный при покупке.</p>
+            </div>
+            <div class="step-item">
+              <span class="step-num">04</span>
+              <p>Опишите причину возврата согласно пунктам условий.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="reveal-up card-glass border-cyan">
+          <div class="flex-content">
+            <i data-lucide="credit-card" class="large-icon"></i>
+            <div>
+              <h3>Сроки и способ возврата</h3>
+              <p>
+                После одобрения запроса средства возвращаются в течение <strong>7–14 рабочих дней</strong>.
+                Деньги поступают на ту же карту или счет, с которых была произведена оплата.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="reveal-up shadow-box danger-border">
+          <h2 class="text-danger"><i data-lucide="alert-circle"></i> Исключения и ограничения</h2>
+          <ul class="icon-list">
+            <li><i data-lucide="x-circle"></i> Прошло более 14 календарных дней с момента покупки.</li>
+            <li><i data-lucide="x-circle"></i> Изучено или скачано более <strong>50% материалов</strong> курса.</li>
+            <li><i data-lucide="x-circle"></i> Технические проблемы вызваны на стороне пользователя (плохой интернет).</li>
+            <li><i data-lucide="x-circle"></i> Нарушены правила Пользовательского соглашения Aether.</li>
+          </ul>
+        </div>
+
+        <div class="reveal-up contact-footer">
+          <h2><i data-lucide="help-circle"></i> Появились вопросы?</h2>
+          <p>Наша служба поддержки всегда на связи для решения спорных ситуаций:</p>
+          <a href="mailto:hello@aether-markz.org" class="btn-link">hello@aether-markz.org</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+</main>
+
+    <load src="./partials/footer.html" />
+    <div class="cookie-popup" id="cookie-popup">
+      <p>Этот сайт использует cookies для улучшения работы. Подробнее — в нашей <a href="./cookies.html">Cookie политике</a>.</p>
+      <button class="btn btn--primary btn--sm" id="cookie-accept">Принять</button>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.27/bundled/lenis.min.js"></script>
+
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
+
